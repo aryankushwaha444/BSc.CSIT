@@ -1,0 +1,17 @@
+	LHLD 2050	
+	SPHL	
+	LHLD 2052
+	XCHG	
+	LXI H,0000H
+	LXI B,0000H
+	DAD SP	 
+	JNC L1	
+	INX B	
+            L1 :	DCX D	
+	MOV A,E	
+	ORA D	
+	JNZ L2	
+	SHLD 2054	
+	MOV H,B	
+            L2 :	SHLD 2056	
+	HLT	
