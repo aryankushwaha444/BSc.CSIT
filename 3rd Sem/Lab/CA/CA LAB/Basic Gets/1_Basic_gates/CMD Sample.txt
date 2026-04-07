@@ -1,0 +1,23 @@
+1.) Syntax Error
+ghdl -s filename_architecutre
+ghdl -s filename (test bench)
+
+2.) Analyze
+ghdl -a filename_architecutre
+ghdl -a filename (test bench)
+
+3.) Explore
+ghdl -e unitname
+eg:- 
+ghdl -e andl (Architecture)
+ghdl -e andl_tb (test bench)
+
+4.) Run and Compile
+ghdl -r unitname
+ghdl -r unitname (test bench)
+
+5.) To create vcd file
+ghdl -r andl_tb --vcd=andl.vcd
+
+6.)
+gtkwave andl.vcd

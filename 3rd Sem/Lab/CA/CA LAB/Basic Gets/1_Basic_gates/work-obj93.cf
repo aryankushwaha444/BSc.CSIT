@@ -1,0 +1,19 @@
+v 4
+file . "notl_tb.vhdl" "d3506467feb09443aa4a2bdad8aa7c0689de3331" "20230609134545.900":
+  entity notl_tb at 1( 0) + 0 on 73;
+  architecture test of notl_tb at 6( 80) + 0 on 74;
+file . "orl_tb.vhdl" "edde8686c7cad2562e0844ccb35ea182754eb276" "20230609083239.679":
+  entity orl_tb at 1( 0) + 0 on 61;
+  architecture test of orl_tb at 5( 76) + 0 on 62;
+file . "andl_tb.vhdl" "8b0d076b27cc8a7aca8d575df36b0d011d2f4051" "20230609082901.639":
+  entity andl_tb at 1( 0) + 0 on 57;
+  architecture test of andl_tb at 6( 80) + 0 on 58;
+file . "andl.vhdl" "f8ca826f69093d7f9f56bdb0599bb2a65e5ce24e" "20230609082855.998":
+  entity andl at 1( 0) + 0 on 55;
+  architecture behave of andl at 11( 120) + 0 on 56;
+file . "orl.vhdl" "3a7a2736b797d173446144d67b3b26d4a9d08f00" "20230609083235.536":
+  entity orl at 1( 0) + 0 on 59;
+  architecture behave of orl at 11( 118) + 0 on 60;
+file . "notl.vhdl" "4427b26f89c52e003a441bf43472f4234b55e944" "20230609134541.521":
+  entity notl at 1( 0) + 0 on 71;
+  architecture behave of notl at 11( 118) + 0 on 72;

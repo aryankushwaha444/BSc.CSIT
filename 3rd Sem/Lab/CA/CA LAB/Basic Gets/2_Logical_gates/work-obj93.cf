@@ -1,0 +1,25 @@
+v 4
+file . "xnorl_tb.vhdl" "13bbcc2f0ef6ac0e5021c74bee0d15fa7d3b32fd" "20230611094707.358":
+  entity xnorl_tb at 1( 0) + 0 on 29;
+  architecture test of xnorl_tb at 5( 80) + 0 on 30;
+file . "xorl_tb.vhdl" "d2f43e420261d68edb87cc2515cd99ce637eb99a" "20230611094444.929":
+  entity xorl_tb at 1( 0) + 0 on 25;
+  architecture test of xorl_tb at 5( 78) + 0 on 26;
+file . "norl_tb.vhdl" "6901cade00885583ba63dea3616c354c6a92b867" "20230611094302.049":
+  entity norl_tb at 1( 0) + 0 on 21;
+  architecture test of norl_tb at 5( 78) + 0 on 22;
+file . "nandl_tb.vhdl" "7284efbad7918b204fe9d3e32299c8ef5cb2d431" "20230611094058.779":
+  entity nandl_tb at 1( 0) + 0 on 17;
+  architecture test of nandl_tb at 5( 80) + 0 on 18;
+file . "nandl.vhdl" "f183ec7e1bec4fe4cbcee8edd244c7e63dda6ada" "20230611094054.406":
+  entity nandl at 1( 0) + 0 on 15;
+  architecture behave of nandl at 11( 122) + 0 on 16;
+file . "norl.vhdl" "3c4a41d0a57d1a57bc80b52f34ddba41ac17b66b" "20230611094258.525":
+  entity norl at 1( 0) + 0 on 19;
+  architecture behave of norl at 11( 120) + 0 on 20;
+file . "xorl.vhdl" "bef26ec88700c3c5adfd162328cffb465ccb9f2d" "20230611094434.561":
+  entity xorl at 1( 0) + 0 on 23;
+  architecture behave of xorl at 11( 120) + 0 on 24;
+file . "xnorl.vhdl" "71a60a0d38f8bdc420fea7a903516d67873d6521" "20230611094703.558":
+  entity xnorl at 1( 0) + 0 on 27;
+  architecture behave of xnorl at 11( 122) + 0 on 28;
